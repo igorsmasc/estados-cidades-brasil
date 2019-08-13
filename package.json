@@ -1,0 +1,24 @@
+{
+  "name": "estados-cidades-brasil",
+  "version": "1.0.0",
+  "description": "API - Estados e cidades do Brasil.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorsmasc/estados-cidades-brasil.git"
+  },
+  "author": "Igor Santos Mascarenhas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorsmasc/estados-cidades-brasil/issues"
+  },
+  "homepage": "https://github.com/igorsmasc/estados-cidades-brasil#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "0.0.0"
+  }
+}
