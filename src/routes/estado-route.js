@@ -5,6 +5,7 @@ const router = express.Router();
 const controller = require('../controllers/estado-controller');
 
 router.get('/', controller.get);
+router.get('/id/:id', controller.getById);
 router.get('/:sigla', controller.getBySigla);
 router.post('/', controller.post);
 router.post('/many', controller.postMany);

@@ -18,6 +18,19 @@ exports.get = (req, res, next) => {
 
 }
 
+exports.getById = (req, res, next) => {
+    Estado
+    .findById(req.params.id , 'sigla nome')
+    .then(data => {
+
+        res.status(200).send({data});
+ 
+    }).catch(e => {
+        res.status(400).send({e});
+    });
+
+}
+
 exports.getBySigla = (req, res, next) => {
     Estado
     .find({ sigla: req.params.sigla }, 'sigla nome')

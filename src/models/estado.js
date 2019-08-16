@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const schema = new Schema({
+const estadoModel = new Schema({
    
     sigla: {
         type: String,
@@ -19,4 +19,4 @@ const schema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Estado', schema);
+module.exports = mongoose.model('Estado', estadoModel);
